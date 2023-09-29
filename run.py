@@ -26,7 +26,7 @@ while True:
     if not DomainsList.domains:
         print("Domains list not found or incorrect!!!")
         sys.exit()
-
+#3 attempts for getting cert
     for domain in DomainsList.domains:
         alert = ""
         # 3 tries
